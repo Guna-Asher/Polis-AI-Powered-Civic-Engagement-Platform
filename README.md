@@ -75,10 +75,10 @@ graph TD
 
 </div>
 
-- **🔍 Smart Search** - Find bills by topic, status, or keywords
-- **📖 AI Summarization** - Convert legal text to plain English automatically
-- **🎯 Clause Breakdown** - Analyze legislation section by section
-- **📊 Progress Tracking** - Monitor bill status and updates
+**🔍 Smart Search** - Find bills by topic, status, or keywords
+**📖 AI Summarization** - Convert legal text to plain English automatically
+**🎯 Clause Breakdown** - Analyze legislation section by section
+**📊 Progress Tracking** - Monitor bill status and updates
 
 
 ### 💬 Structured Feedback System
@@ -483,6 +483,7 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 
 
 </div>
+
 
 
 
