@@ -4,8 +4,6 @@
 
 **Intelligent legislation analysis meets citizen empowerment - Version 1.0**
 
-![Polis Banner](https://via.placeholder.com/800x200/1e3a8a/ffffff?text=Polis+-+Democracy+Decoded)
-
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask 2.3](https://img.shields.io/badge/Flask-2.3-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![MariaDB](https://img.shields.io/badge/MariaDB-10.6-003545?style=for-the-badge&logo=mariadb&logoColor=white)](https://mariadb.org)
@@ -435,8 +433,8 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial 4
 [![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
 You are free to:
-- Use and modify for **personal/educational purposes**
-- Share with proper **attribution**
+  Use and modify for **personal/educational purposes**
+  Share with proper **attribution**
 
 **Commercial use requires explicit permission.**
 
@@ -482,6 +480,7 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 *Last updated: January 2024 | Version 1.0 | [View Changelog](CHANGELOG.md)*
 
 </div>
+
 
 
 
