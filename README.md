@@ -435,8 +435,8 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial 4
 [![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
 You are free to:
-Use and modify for **personal/educational purposes**
-Share with proper **attribution**
+ Use and modify for **personal/educational purposes**
+ Share with proper **attribution**
 
 **Commercial use requires explicit permission.**
 
@@ -482,4 +482,5 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 *Last updated: January 2024 | Version 1.0 | [View Changelog](CHANGELOG.md)*
 
 </div>
+
 
