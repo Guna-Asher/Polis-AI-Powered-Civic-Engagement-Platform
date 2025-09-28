@@ -3,6 +3,7 @@
 <div align="center">
 
 **Intelligent legislation analysis meets citizen empowerment - Version 1.0**
+
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask 2.3](https://img.shields.io/badge/Flask-2.3-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![MariaDB](https://img.shields.io/badge/MariaDB-10.6-003545?style=for-the-badge&logo=mariadb&logoColor=white)](https://mariadb.org)
@@ -462,3 +463,4 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 
 
 </div>
+
