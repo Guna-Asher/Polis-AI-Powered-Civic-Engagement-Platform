@@ -3,7 +3,8 @@
 <div align="center">
 
 **Intelligent legislation analysis meets citizen empowerment - Version 1.0**
-<div align="center">
+
+![Polis Banner](https://via.placeholder.com/800x200/1e3a8a/ffffff?text=Polis+-+Democracy+Decoded)
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask 2.3](https://img.shields.io/badge/Flask-2.3-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
@@ -75,11 +76,10 @@ graph TD
 
 </div>
 
-**🔍 Smart Search** - Find bills by topic, status, or keywords
-**📖 AI Summarization** - Convert legal text to plain English automatically
-**🎯 Clause Breakdown** - Analyze legislation section by section
-**📊 Progress Tracking** - Monitor bill status and updates
-
+- **🔍 Smart Search** - Find bills by topic, status, or keywords
+- **📖 AI Summarization** - Convert legal text to plain English automatically
+- **🎯 Clause Breakdown** - Analyze legislation section by section
+- **📊 Progress Tracking** - Monitor bill status and updates
 
 ### 💬 Structured Feedback System
 
@@ -481,10 +481,4 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 
 *Last updated: January 2024 | Version 1.0 | [View Changelog](CHANGELOG.md)*
 
-
 </div>
-
-
-
-
-
