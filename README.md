@@ -477,9 +477,10 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 
 <div align="center">
 
-*Last updated: January 2024 | Version 1.0 | [View Changelog](CHANGELOG.md)*
+*Last updated: September 2025 | Version 1.0 | [View Changelog](CHANGELOG.md)*
 
 </div>
+
 
 
 
