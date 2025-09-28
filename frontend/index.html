@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polis - Democracy, Decoded</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗳️</text></svg>">
+    <style>
+        .hero-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #5b21b6 100%); }
+        .glassmorphism { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        .loading-spinner { border: 3px solid #f3f4f6; border-top: 3px solid #3b82f6; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i data-feather="globe" class="text-blue-600"></i>
+                    <span class="ml-2 text-xl font-bold">Polis</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#legislation" class="text-blue-600 font-medium">Legislation</a>
+                    <a href="#civic-pulse" class="text-gray-500 hover:text-gray-700">Civic Pulse</a>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Share Your Voice</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-gradient text-white min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">Democracy, Decoded</h1>
+            <p class="text-2xl mb-12 max-w-4xl mx-auto opacity-90">Intelligent legislation analysis meets citizen empowerment</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <button onclick="scrollToSection('legislation')" class="bg-cyan-500 text-white px-8 py-4 rounded-xl font-medium hover:bg-cyan-600 transition">Explore Bills</button>
+                <button onclick="scrollToSection('feedback')" class="border-2 border-white text-white px-8 py-4 rounded-xl font-medium hover:bg-white hover:bg-opacity-10 transition">Share Your Voice</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="legislation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Featured Legislation</h2>
+            <p class="text-xl text-gray-600">Currently open for public feedback</p>
+        </div>
+
+        <div id="loading-spinner" class="flex justify-center my-8">
+            <div class="loading-spinner"></div>
+        </div>
+
+        <div id="legislation-container" class="grid md:grid-cols-2 gap-8">
+            <!-- Content loaded by JavaScript -->
+        </div>
+    </div>
+
+    <div id="feedback-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 id="modal-title" class="text-2xl font-bold">Provide Feedback</h3>
+                    <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700">✕</button>
+                </div>
+                <div id="modal-content"><!-- Content loaded by JavaScript --></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
