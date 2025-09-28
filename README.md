@@ -5,10 +5,6 @@
 **Intelligent legislation analysis meets citizen empowerment - Version 1.0**
 <div align="center">
 
-**Intelligent legislation analysis meets citizen empowerment - Version 1.0**
-
-![Polis Banner](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=200&q=80)
-
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask 2.3](https://img.shields.io/badge/Flask-2.3-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![MariaDB](https://img.shields.io/badge/MariaDB-10.6-003545?style=for-the-badge&logo=mariadb&logoColor=white)](https://mariadb.org)
@@ -468,5 +464,6 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 
 
 </div>
+
 
 
