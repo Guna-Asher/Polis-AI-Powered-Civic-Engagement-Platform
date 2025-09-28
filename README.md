@@ -53,7 +53,25 @@ Polis is a civic engagement platform that bridges the gap between complex legisl
 
 <div align="center">
 
-![Legislation Flow](https://via.placeholder.com/600x200/3B82F6/ffffff?text=AI-Powered+Legislation+Analysis)
+```mermaid
+graph TD
+    A[👤 Citizen] --> B[🔍 Smart Search]
+    B --> C[📖 AI Summarization]
+    C --> D[🎯 Clause Breakdown]
+    D --> E[📊 Progress Tracking]
+    E --> F[📋 Legislation Hub Dashboard]
+
+    B --> F
+    C --> F
+    D --> F
+
+    style A fill:#3B82F6,color:white
+    style B fill:#10B981,color:white
+    style C fill:#8B5CF6,color:white
+    style D fill:#EF4444,color:white
+    style E fill:#F59E0B,color:white
+    style F fill:#06B6D4,color:white
+```
 
 </div>
 
@@ -61,6 +79,7 @@ Polis is a civic engagement platform that bridges the gap between complex legisl
 - **📖 AI Summarization** - Convert legal text to plain English automatically
 - **🎯 Clause Breakdown** - Analyze legislation section by section
 - **📊 Progress Tracking** - Monitor bill status and updates
+
 
 ### 💬 Structured Feedback System
 
@@ -464,6 +483,7 @@ Polis Version 1.0 is made possible by these amazing technologies and communities
 
 
 </div>
+
 
 
 
